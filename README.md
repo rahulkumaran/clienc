@@ -26,9 +26,9 @@ To run this program follow the given steps:
     
 
 Lastly, <b>please follow the order in which the options are given</b>.
-For example if you want encrypt the word "KILLBILL" by a key value of 4, you need to execute the following command:
+For example if you want encrypt the word "KILLBILL" by a key value of 4, and store the encrypted data result in a new file "test.txt", then you need to execute the following command:
 
-    clienc --string KILLBILL --key 4 --encrypt
+    clienc --string KILLBILL --key 4 test.txt --encrypt
     
 # IMPORTANT NOTE
 (1) Currently works only for single words.

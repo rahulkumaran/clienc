@@ -30,11 +30,15 @@ For example if you want encrypt the word "KILLBILL" by a key value of 4, and sto
 
     clienc --string KILLBILL --key 4 test.txt --encrypt
     
+If you want to encrypt or decrypt a sentence with spaces then put the sentence in "". For example, if you want to encrypt the sentence "CLIENC IS A CLI APPLICATION", execute the following command:
+
+    clienc --string "CLIENC IS A CLI APPLICATION" --key 4 test.txt --encrypt
+    
+
+    
 # IMPORTANT NOTE
-(1) Currently works only for single words.
+(1) Currently encrypts and decrypts only capital letters.
 
-(2) Currently encrypts only capital letters.
+(2) Make sure to follow order.
 
-(3) Make sure to follow order.
-
-(4) --encrypt or --decrypt should always be used in the end only.
+(3) --encrypt or --decrypt should always be used in the end only.

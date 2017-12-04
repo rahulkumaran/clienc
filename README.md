@@ -14,13 +14,16 @@ To run this program follow the given steps:
 
     virtualenv venv
     
+(3) Then to make sure you enter your virtual environment, enter the following command.
+
+    . venv/bin/activate
     
-(3) Then type the command below, in order to make sure that the changes you do in your file are directly reflected in your virtual environment.
+(4) Then type the command below, in order to make sure that the changes you do in your file are directly reflected in your virtual environment.
 
     pip install --editable .
     
     
-(4) Finally type the below command to make sure that you get a list of the functionalities available in the following program
+(5) Finally type the below command to make sure that you get a list of the functionalities available in the following program
 
     clienc --help
     

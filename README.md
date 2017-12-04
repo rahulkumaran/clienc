@@ -40,8 +40,4 @@ If you want to encrypt or decrypt a sentence with spaces then put the sentence i
 
     
 # IMPORTANT NOTE
-(1) Currently encrypts and decrypts only capital letters.
-
-(2) Make sure to follow order.
-
-(3) --encrypt or --decrypt should always be used in the end only.
+(1) Make sure to follow order with --encrypt or --decrypt always be used in the end only.
